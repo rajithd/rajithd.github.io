@@ -335,3 +335,6 @@ section {
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
 }
+.custom {
+    width: 120px !important;
+}
