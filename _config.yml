@@ -11,7 +11,7 @@ url: "https://rajithd.github.io"
 # NB! Without this *nothing* will work, because it's used in every path :)
 baseurl: ""
 # Google tracking id
-google-tracking-id: "UA-XXXXXXXX-X"
+google-tracking-id: ""
 #############
 # HTML Head #
 #############
@@ -19,8 +19,8 @@ lang: "en"
 author: "Rajith Delantha"
 title: "{ Rajith Delantha }"
 description:
-  "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+  "Blog and website of Rajith Delantha, blogging mainly for tech. Opinions expressed are mine."
+keywords: "rajith, gamage, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 ################
 # Header layout #
@@ -38,13 +38,15 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
-me-img: "/img/jetpacktocat.png"
+  - text: "The best error message is the one that never shows up."
+  - text: "Programming is not about typing, it's about thinking."
+  - text: "Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime."
+  - text: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+#me-img: "/img/jetpacktocat.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-# me-img: "https://github.com/user_name.png?size=500"
+me-img: "https://github.com/rajithd.png?size=500"
 
 # To use gravatar profile pic uncomment the following line and replace 'email_hash'
 # with your gravatar profile email hash.
@@ -90,18 +92,30 @@ syntax-highlight: True
 # Timeline #
 ############
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/dev_sigma.png"
+    date: "August 2022 - Today"
+    description: "Freelance Consultant"
+  - image: "/img/timeline/xo.png"
+    date: "December 2015 - August 2022"
+    description: "Crossover - Software Architect"
+  - image: "/img/timeline/vetstoria.jpeg"
+    date: "February 2015 - December 2015"
+    description: "Vetstoria - Technical Consultant"
+  - image: "/img/timeline/cinglevue.jpeg"
+    date: "February 2014 - January 2015"
+    description: "CingleVue - Senior Software Engineer"
+  - image: "/img/timeline/leapset.jpeg"
+    date: "May 2013 - January 2014"
+    description: "Leapset - Senior Software Engineer"
+  - image: "/img/timeline/hsenid.jpeg"
+    date: "November 2010 - February 2013"
+    description: "hSenidMobile - Software Engineer"
 # First image of the Timeline
-timeline-img: "/img/timeline/default.png"
+timeline-img: "https://github.com/rajithd.png?size=500"
 ###########
 # Contact #
 ###########
-email: "your@email.here"
+email: "rajithgama@gmail.com"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 ################
@@ -121,13 +135,11 @@ author_blurb_image: "/img/author.png"
 ##################
 social:
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
+    url: "https://github.com/rajithd"
   - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
+    url: "https://www.linkedin.com/in/rdelantha/"
   - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+    url: "https://blog.rajith.onine"
 ############
 # 404 page #
 ############
@@ -139,7 +151,7 @@ err-404-img: "/img/labtocat.png"
 # Sections shown in the index page
 pages_list:
   About: "about"
-  Blog: "latest-post"
+#  Blog: "latest-post"
   Timeline: "timeline"
   Contact: "contact"
 # Exclusion list from the generated _site
