@@ -40,8 +40,10 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "The best error message is the one that never shows up."
   - text: "Programming is not about typing, it's about thinking."
-  - text: "Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime."
   - text: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+  - text: "It's not a bug – it's an undocumented feature."
+  - text: "Software developers like to solve problems. If there are no problems handily available, they will create their own problems."
+  - text: "Debugging is like being the detective in a crime movie where you are also the murderer."
 #me-img: "/img/jetpacktocat.png"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -139,7 +141,9 @@ social:
   - icon: "linkedin-in"
     url: "https://www.linkedin.com/in/rdelantha/"
   - icon: "rss"
-    url: "https://blog.rajith.onine"
+    url: "https://rajithd.substack.com/"
+  - icon: "stack-overflow"
+    url: "https://stackoverflow.com/users/1490555/rajith-delantha"
 ############
 # 404 page #
 ############
